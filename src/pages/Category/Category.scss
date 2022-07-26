@@ -1,0 +1,101 @@
+.categorySection {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 100px;
+}
+
+.titleProducts {
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.containerProducts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px 40px;
+  padding: 100px 0;
+}
+
+.containerProduct {
+  position: relative;
+  width: 386px;
+  padding: 16px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 4px 35px rgba(168, 172, 176, 0.19);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 0;
+}
+
+.overlayText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #8d8f9a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.imageCart {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -26px;
+  right: 26px;
+  background-color: #5ECE7B;
+}
+
+.imageProduct {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.nameProduct {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1D1F22;
+  padding: 24px 0 0 0;
+}
+
+.priceProduct {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1D1F22;
+}

@@ -1,0 +1,204 @@
+.headerSection {
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: relative;
+}
+
+.leftContainer {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.middleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  padding: 0 16px 30px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #1D1F22;
+}
+
+.link--active {
+  font-weight: 600;
+  color: #5ECE7B;
+  border-bottom: 2px solid #5ECE7B;
+}
+
+.buttonCart {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.itemCounterInCart {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #1D1F22;
+  color: #FFFFFF;
+}
+
+.cartOverlay {
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 80px;
+  right: 70px;
+  padding: 32px 16px;
+  width: 325px;
+  max-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titleCartOverlay {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.spanCartOverlay {
+  font-weight: 500;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.buttonViewBag {
+  background-color: #FFFFFF;
+  border: 1px solid #1D1F22;
+  width: 100%;
+  padding: 16px 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1D1F22;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.navLinkCart {
+  width: 100%;
+}
+
+.buttonCheckOut {
+  background-color: #5ECE7B;
+  border: 1px solid #5ECE7B;
+  width: 100%;
+  padding: 16px 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.totalTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1D1F22;
+}
+
+.totalAmount {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.moneyMenu {
+  position: relative;
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.moneyButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+}
+
+.moneySymbol {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.oddCurrency {
+  background-color: #EEEEEE;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.evenCurrency {
+  background-color: #FFFFFF;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.moneyBar {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 115px;
+  border: none;
+  box-shadow: 0 4px 35px rgba(168, 172, 176, 0.19);
+  padding: 12px 0;
+}
