@@ -1,5 +1,7 @@
 # Entry React developer TEST
 
+![erdt](public/entry-react-developer-test.gif "Entry React Developer Test")
+
 This is an entry React developer TEST by Scandiweb, it requries building a e-commerce website by fetching data from the GraphQL endpoint and to provide an interface to view and interact with this data.
 
 # Build Tool
